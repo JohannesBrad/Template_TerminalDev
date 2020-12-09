@@ -16,14 +16,6 @@ html {
   align-items: center; 
   
 }
-
-/* Place text in the middle of the image */
-.hero_contenedor_text {
-   width: 50%;
-  color: white;
-  font-size: 20px;
-
-}
 h2.hero_contenedor_titulo{
     font-size: 48px;
     line-height: 1.15em;
@@ -43,6 +35,7 @@ span {
 .hora_terminal{
     color: #09ff00;
     margin-top: 25px;
+    font-size: 20px;
 }
 .parpadea {    
   color: #fff;
