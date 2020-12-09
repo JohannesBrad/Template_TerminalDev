@@ -11,10 +11,10 @@ html {
 .hero {
   background-color: #212121;
   height: 90vh;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding: 0 10%;
+ display: flex;
+  /* justify-content: start; */
+  align-items: center; 
+  
 }
 
 /* Place text in the middle of the image */
@@ -26,7 +26,6 @@ html {
 }
 h2.hero_contenedor_titulo{
     font-size: 48px;
-    /* line-height: 1.15em; */
     line-height: 1.15em;
     padding: 20px 0;
 }
