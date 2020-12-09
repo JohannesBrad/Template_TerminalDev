@@ -1,0 +1,77 @@
+body,
+html {
+  height: 100%;
+  font-family: "Roboto Mono", monospace;
+}
+.nav_color{
+    background-color: #212121;
+    color: #fff !important;
+}
+/* The hero image */
+.hero {
+  background-color: #212121;
+  height: 90vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0 10%;
+}
+
+/* Place text in the middle of the image */
+.hero_contenedor_text {
+   width: 50%;
+  color: white;
+  font-size: 20px;
+
+}
+h2.hero_contenedor_titulo{
+    font-size: 48px;
+    /* line-height: 1.15em; */
+    line-height: 1.15em;
+    padding: 20px 0;
+}
+.hero_contenedor_subtitulo{
+    font-size: 20px;
+}
+span {
+  font-family: Arial, sans-serif;
+  color: #ff214f;
+}
+.img_clock{
+    width: 20px;
+    color: #fff;
+}
+.hora_terminal{
+    color: #09ff00;
+    margin-top: 25px;
+}
+.parpadea {    
+  color: #fff;
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
